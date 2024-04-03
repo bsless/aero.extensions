@@ -1,7 +1,6 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        juxt/aero {:git/url "https://github.com/juxt/aero"
-                   :git/sha "814b0006a1699e8149045e55c4e112e61b983fe9"}}
+        aero/aero {:mvn/version "1.1.6"}}
  :aliases
  {:test
   {:extra-paths ["test"]
