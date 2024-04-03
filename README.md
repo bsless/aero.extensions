@@ -1,3 +1,8 @@
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.bsless/aero.extensions.svg)](https://clojars.org/io.github.bsless/aero.extensions)
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.bsless/aero.extensions.svg?include_prereleases)](https://clojars.org/io.github.bsless/aero.extensions)
+[![cljdoc](https://cljdoc.org/badge/io.github.bsless/aero.extensions)](https://cljdoc.org/d/io.github.bsless/aero.extensions)
+![Test And Snapshot](https://github.com/bsless/aero.extensions/actions/workflows/test-and-snapshot.yml/badge.svg)
+
 # bsless/aero.extensions
 
 Aero is awesome
