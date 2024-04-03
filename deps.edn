@@ -1,0 +1,16 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        juxt/aero {:git/url "https://github.com/juxt/aero"
+                   :git/sha "814b0006a1699e8149045e55c4e112e61b983fe9"}}
+ :aliases
+ {:test
+  {:extra-paths ["test"]
+   :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
+                metosin/malli {:mvn/version "0.15.0"}
+                nubank/matcher-combinators {:mvn/version "3.9.1"}
+                io.github.cognitect-labs/test-runner
+                {:git/tag "v0.5.1" :git/sha "dfb30dd"}}}
+  :build {:deps {io.github.clojure/tools.build
+                 {:git/tag "v0.9.2" :git/sha "fe6b140"}
+                 slipset/deps-deploy {:mvn/version "0.2.0"}}
+          :ns-default build} :neil {:project {:name bsless/aero.extensions}}}}
